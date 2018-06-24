@@ -67,6 +67,10 @@ Update the [ignition example](environments/container-linux/ignition.yaml) on the
 Update the [README](README.md)
 * [download section](README.md#download) :`${VERSION}`.
 
+Update the [examples](./examples)
+* [travis](./examples/travis.yaml) : install section
+* [circleci](./examples/circleci.yaml) : download section
+
 ### Push tags
 
 After validation, merge your PR and checkout the latest master branch:
